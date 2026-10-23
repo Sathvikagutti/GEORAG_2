@@ -1,0 +1,355 @@
+########## START E0_2015 dla 15:12:11 ##########
+[E0_2015/dla] params=418904 train_years=(2015,) test=2015 in_ch=9
+  epoch  1 train_loss=0.4086 val_loss=0.7789  BEST
+  epoch  2 train_loss=0.3653 val_loss=0.5952  BEST
+  epoch  3 train_loss=0.3484 val_loss=0.5356  BEST
+  epoch  4 train_loss=0.2693 val_loss=0.5282  BEST
+  epoch  5 train_loss=0.2970 val_loss=0.4574  BEST
+  epoch  6 train_loss=0.3044 val_loss=0.4661
+  epoch  7 train_loss=0.3400 val_loss=0.4446  BEST
+  epoch  8 train_loss=0.1976 val_loss=0.4646
+  epoch  9 train_loss=0.2804 val_loss=0.4265  BEST
+  epoch 10 train_loss=0.2233 val_loss=0.4668
+  epoch 11 train_loss=0.3001 val_loss=0.4005  BEST
+  epoch 12 train_loss=0.2112 val_loss=0.4090
+  epoch 13 train_loss=0.1935 val_loss=0.4074
+  epoch 14 train_loss=0.2817 val_loss=0.3992  BEST
+  epoch 15 train_loss=0.1723 val_loss=0.3937  BEST
+  epoch 16 train_loss=0.1986 val_loss=0.3927  BEST
+  epoch 17 train_loss=0.2162 val_loss=0.3849  BEST
+  epoch 18 train_loss=0.1598 val_loss=0.3888
+  epoch 19 train_loss=0.1859 val_loss=0.4066
+  epoch 20 train_loss=0.2323 val_loss=0.3884
+  epoch 21 train_loss=0.1748 val_loss=0.3791  BEST
+  epoch 22 train_loss=0.1723 val_loss=0.3809
+  epoch 23 train_loss=0.3735 val_loss=0.3838
+  epoch 24 train_loss=0.1357 val_loss=0.3753  BEST
+  epoch 25 train_loss=0.3000 val_loss=0.3801
+  -> test acc=0.8702 f1=0.8137 train=425.33s infer=0.75s best_epoch=24
+########## DONE  E0_2015 dla rc=0 15:19:23 ##########
+########## START E0_2015 mts 15:19:23 ##########
+[E0_2015/mts] params=327768 train_years=(2015,) test=2015 in_ch=19
+  epoch  1 train_loss=0.3169 val_loss=0.5701  BEST
+  epoch  2 train_loss=0.2881 val_loss=0.4622  BEST
+  epoch  3 train_loss=0.2967 val_loss=0.3903  BEST
+  epoch  4 train_loss=0.1999 val_loss=0.4005
+  epoch  5 train_loss=0.2364 val_loss=0.3478  BEST
+  epoch  6 train_loss=0.2321 val_loss=0.3378  BEST
+  epoch  7 train_loss=0.2264 val_loss=0.3179  BEST
+  epoch  8 train_loss=0.1439 val_loss=0.3067  BEST
+  epoch  9 train_loss=0.2017 val_loss=0.3243
+  epoch 10 train_loss=0.1702 val_loss=0.3204
+  epoch 11 train_loss=0.1734 val_loss=0.3082
+  epoch 12 train_loss=0.1588 val_loss=0.2937  BEST
+  epoch 13 train_loss=0.1545 val_loss=0.3055
+  epoch 14 train_loss=0.2090 val_loss=0.2987
+  epoch 15 train_loss=0.1133 val_loss=0.2839  BEST
+  epoch 16 train_loss=0.1474 val_loss=0.2724  BEST
+  epoch 17 train_loss=0.1800 val_loss=0.2939
+  epoch 18 train_loss=0.1232 val_loss=0.2736
+  epoch 19 train_loss=0.1208 val_loss=0.2677  BEST
+  epoch 20 train_loss=0.1629 val_loss=0.2705
+  epoch 21 train_loss=0.1299 val_loss=0.2742
+  epoch 22 train_loss=0.1171 val_loss=0.2660  BEST
+  epoch 23 train_loss=0.2623 val_loss=0.2643  BEST
+  epoch 24 train_loss=0.0858 val_loss=0.2671
+  epoch 25 train_loss=0.1905 val_loss=0.2657
+  -> test acc=0.9024 f1=0.8512 train=367.0s infer=0.677s best_epoch=23
+########## DONE  E0_2015 mts rc=0 15:25:37 ##########
+########## START E0_2020 dla 15:25:37 ##########
+[E0_2020/dla] params=418904 train_years=(2020,) test=2020 in_ch=9
+  epoch  1 train_loss=0.4415 val_loss=0.6745  BEST
+  epoch  2 train_loss=0.3986 val_loss=0.5487  BEST
+  epoch  3 train_loss=0.2769 val_loss=0.4447  BEST
+  epoch  4 train_loss=0.2325 val_loss=0.4183  BEST
+  epoch  5 train_loss=0.2744 val_loss=0.3856  BEST
+  epoch  6 train_loss=0.3078 val_loss=0.3723  BEST
+  epoch  7 train_loss=0.2054 val_loss=0.3670  BEST
+  epoch  8 train_loss=0.2507 val_loss=0.3586  BEST
+  epoch  9 train_loss=0.3037 val_loss=0.3530  BEST
+  epoch 10 train_loss=0.2484 val_loss=0.3525  BEST
+  epoch 11 train_loss=0.2125 val_loss=0.3424  BEST
+  epoch 12 train_loss=0.2150 val_loss=0.3365  BEST
+  epoch 13 train_loss=0.2688 val_loss=0.3270  BEST
+  epoch 14 train_loss=0.2319 val_loss=0.3396
+  epoch 15 train_loss=0.2011 val_loss=0.3282
+  epoch 16 train_loss=0.1636 val_loss=0.3655
+  epoch 17 train_loss=0.2086 val_loss=0.3196  BEST
+  epoch 18 train_loss=0.1508 val_loss=0.3243
+  epoch 19 train_loss=0.2400 val_loss=0.3144  BEST
+  epoch 20 train_loss=0.1917 val_loss=0.3154
+  epoch 21 train_loss=0.1758 val_loss=0.3090  BEST
+  epoch 22 train_loss=0.1393 val_loss=0.3099
+  epoch 23 train_loss=0.2141 val_loss=0.3131
+  epoch 24 train_loss=0.1644 val_loss=0.3098
+  epoch 25 train_loss=0.2423 val_loss=0.3080  BEST
+  -> test acc=0.8854 f1=0.8711 train=441.14s infer=0.752s best_epoch=25
+########## DONE  E0_2020 dla rc=0 15:33:05 ##########
+########## START E0_2020 mts 15:33:05 ##########
+[E0_2020/mts] params=327768 train_years=(2020,) test=2020 in_ch=19
+  epoch  1 train_loss=0.3337 val_loss=0.5033  BEST
+  epoch  2 train_loss=0.3250 val_loss=0.3886  BEST
+  epoch  3 train_loss=0.2075 val_loss=0.3238  BEST
+  epoch  4 train_loss=0.1712 val_loss=0.3174  BEST
+  epoch  5 train_loss=0.2137 val_loss=0.2699  BEST
+  epoch  6 train_loss=0.2268 val_loss=0.2584  BEST
+  epoch  7 train_loss=0.1541 val_loss=0.2475  BEST
+  epoch  8 train_loss=0.1746 val_loss=0.2431  BEST
+  epoch  9 train_loss=0.1959 val_loss=0.2371  BEST
+  epoch 10 train_loss=0.1743 val_loss=0.2331  BEST
+  epoch 11 train_loss=0.1434 val_loss=0.2288  BEST
+  epoch 12 train_loss=0.1550 val_loss=0.2255  BEST
+  epoch 13 train_loss=0.1836 val_loss=0.2177  BEST
+  epoch 14 train_loss=0.1590 val_loss=0.2173  BEST
+  epoch 15 train_loss=0.1420 val_loss=0.2189
+  epoch 16 train_loss=0.1147 val_loss=0.2149  BEST
+  epoch 17 train_loss=0.1569 val_loss=0.2105  BEST
+  epoch 18 train_loss=0.1063 val_loss=0.2050  BEST
+  epoch 19 train_loss=0.1605 val_loss=0.2057
+  epoch 20 train_loss=0.1429 val_loss=0.2033  BEST
+  epoch 21 train_loss=0.1230 val_loss=0.2011  BEST
+  epoch 22 train_loss=0.0854 val_loss=0.2024
+  epoch 23 train_loss=0.1529 val_loss=0.2018
+  epoch 24 train_loss=0.1112 val_loss=0.2001  BEST
+  epoch 25 train_loss=0.1564 val_loss=0.2003
+  -> test acc=0.9273 f1=0.9114 train=356.92s infer=0.703s best_epoch=24
+########## DONE  E0_2020 mts rc=0 15:39:08 ##########
+########## START E0_2025 dla 15:39:08 ##########
+[E0_2025/dla] params=418904 train_years=(2025,) test=2025 in_ch=9
+  epoch  1 train_loss=0.3665 val_loss=0.6590  BEST
+  epoch  2 train_loss=0.4178 val_loss=0.5038  BEST
+  epoch  3 train_loss=0.2415 val_loss=0.4116  BEST
+  epoch  4 train_loss=0.2314 val_loss=0.3919  BEST
+  epoch  5 train_loss=0.2952 val_loss=0.3498  BEST
+  epoch  6 train_loss=0.2772 val_loss=0.3570
+  epoch  7 train_loss=0.1694 val_loss=0.3449  BEST
+  epoch  8 train_loss=0.2103 val_loss=0.3143  BEST
+  epoch  9 train_loss=0.2854 val_loss=0.3068  BEST
+  epoch 10 train_loss=0.2259 val_loss=0.2934  BEST
+  epoch 11 train_loss=0.1706 val_loss=0.2972
+  epoch 12 train_loss=0.2515 val_loss=0.2992
+  epoch 13 train_loss=0.2901 val_loss=0.2781  BEST
+  epoch 14 train_loss=0.1882 val_loss=0.2739  BEST
+  epoch 15 train_loss=0.2080 val_loss=0.2825
+  epoch 16 train_loss=0.1445 val_loss=0.2686  BEST
+  epoch 17 train_loss=0.1785 val_loss=0.2784
+  epoch 18 train_loss=0.1210 val_loss=0.2660  BEST
+  epoch 19 train_loss=0.1923 val_loss=0.2666
+  epoch 20 train_loss=0.1877 val_loss=0.2604  BEST
+  epoch 21 train_loss=0.1345 val_loss=0.2595  BEST
+  epoch 22 train_loss=0.1230 val_loss=0.2585  BEST
+  epoch 23 train_loss=0.1854 val_loss=0.2559  BEST
+  epoch 24 train_loss=0.1540 val_loss=0.2613
+  epoch 25 train_loss=0.2333 val_loss=0.2538  BEST
+  -> test acc=0.9016 f1=0.8877 train=428.55s infer=0.764s best_epoch=25
+########## DONE  E0_2025 dla rc=0 15:46:23 ##########
+########## START E0_2025 mts 15:46:23 ##########
+[E0_2025/mts] params=327768 train_years=(2025,) test=2025 in_ch=19
+  epoch  1 train_loss=0.2695 val_loss=0.4989  BEST
+  epoch  2 train_loss=0.3285 val_loss=0.3584  BEST
+  epoch  3 train_loss=0.1593 val_loss=0.2971  BEST
+  epoch  4 train_loss=0.1733 val_loss=0.2674  BEST
+  epoch  5 train_loss=0.2121 val_loss=0.2548  BEST
+  epoch  6 train_loss=0.2061 val_loss=0.2347  BEST
+  epoch  7 train_loss=0.1221 val_loss=0.2366
+  epoch  8 train_loss=0.1569 val_loss=0.2195  BEST
+  epoch  9 train_loss=0.2023 val_loss=0.2129  BEST
+  epoch 10 train_loss=0.1685 val_loss=0.2212
+  epoch 11 train_loss=0.1077 val_loss=0.2025  BEST
+  epoch 12 train_loss=0.1743 val_loss=0.2031
+  epoch 13 train_loss=0.2151 val_loss=0.1983  BEST
+  epoch 14 train_loss=0.1280 val_loss=0.2002
+  epoch 15 train_loss=0.1404 val_loss=0.1901  BEST
+  epoch 16 train_loss=0.0947 val_loss=0.1924
+  epoch 17 train_loss=0.1197 val_loss=0.1872  BEST
+  epoch 18 train_loss=0.0871 val_loss=0.1859  BEST
+  epoch 19 train_loss=0.1306 val_loss=0.1844  BEST
+  epoch 20 train_loss=0.1257 val_loss=0.1816  BEST
+  epoch 21 train_loss=0.0988 val_loss=0.1806  BEST
+  epoch 22 train_loss=0.0820 val_loss=0.1824
+  epoch 23 train_loss=0.1309 val_loss=0.1805  BEST
+  epoch 24 train_loss=0.1073 val_loss=0.1809
+  epoch 25 train_loss=0.1607 val_loss=0.1787  BEST
+  -> test acc=0.9306 f1=0.9168 train=367.35s infer=0.736s best_epoch=25
+########## DONE  E0_2025 mts rc=0 15:52:37 ##########
+########## START E1_2015_to_2020 dla 15:52:37 ##########
+[E1_2015_to_2020/dla] params=418904 train_years=(2015,) test=2020 in_ch=9
+  epoch  1 train_loss=0.4086 val_loss=0.7789  BEST
+  epoch  2 train_loss=0.3653 val_loss=0.5952  BEST
+  epoch  3 train_loss=0.3484 val_loss=0.5356  BEST
+  epoch  4 train_loss=0.2693 val_loss=0.5282  BEST
+  epoch  5 train_loss=0.2970 val_loss=0.4574  BEST
+  epoch  6 train_loss=0.3044 val_loss=0.4661
+  epoch  7 train_loss=0.3400 val_loss=0.4446  BEST
+  epoch  8 train_loss=0.1976 val_loss=0.4646
+  epoch  9 train_loss=0.2804 val_loss=0.4265  BEST
+  epoch 10 train_loss=0.2233 val_loss=0.4668
+  epoch 11 train_loss=0.3001 val_loss=0.4005  BEST
+  epoch 12 train_loss=0.2112 val_loss=0.4090
+  epoch 13 train_loss=0.1935 val_loss=0.4074
+  epoch 14 train_loss=0.2817 val_loss=0.3992  BEST
+  epoch 15 train_loss=0.1723 val_loss=0.3937  BEST
+  epoch 16 train_loss=0.1986 val_loss=0.3927  BEST
+  epoch 17 train_loss=0.2162 val_loss=0.3849  BEST
+  epoch 18 train_loss=0.1598 val_loss=0.3888
+  epoch 19 train_loss=0.1859 val_loss=0.4066
+  epoch 20 train_loss=0.2323 val_loss=0.3884
+  epoch 21 train_loss=0.1748 val_loss=0.3791  BEST
+  epoch 22 train_loss=0.1723 val_loss=0.3809
+  epoch 23 train_loss=0.3735 val_loss=0.3838
+  epoch 24 train_loss=0.1357 val_loss=0.3753  BEST
+  epoch 25 train_loss=0.3000 val_loss=0.3801
+  -> test acc=0.8600 f1=0.8401 train=411.29s infer=0.592s best_epoch=24
+########## DONE  E1_2015_to_2020 dla rc=0 15:59:35 ##########
+########## START E1_2015_to_2020 mts 15:59:35 ##########
+[E1_2015_to_2020/mts] params=327768 train_years=(2015,) test=2020 in_ch=19
+  epoch  1 train_loss=0.3169 val_loss=0.5701  BEST
+  epoch  2 train_loss=0.2881 val_loss=0.4622  BEST
+  epoch  3 train_loss=0.2967 val_loss=0.3903  BEST
+  epoch  4 train_loss=0.1999 val_loss=0.4005
+  epoch  5 train_loss=0.2364 val_loss=0.3478  BEST
+  epoch  6 train_loss=0.2321 val_loss=0.3378  BEST
+  epoch  7 train_loss=0.2264 val_loss=0.3179  BEST
+  epoch  8 train_loss=0.1439 val_loss=0.3067  BEST
+  epoch  9 train_loss=0.2017 val_loss=0.3243
+  epoch 10 train_loss=0.1702 val_loss=0.3204
+  epoch 11 train_loss=0.1734 val_loss=0.3082
+  epoch 12 train_loss=0.1588 val_loss=0.2937  BEST
+  epoch 13 train_loss=0.1545 val_loss=0.3055
+  epoch 14 train_loss=0.2090 val_loss=0.2987
+  epoch 15 train_loss=0.1133 val_loss=0.2839  BEST
+  epoch 16 train_loss=0.1474 val_loss=0.2724  BEST
+  epoch 17 train_loss=0.1800 val_loss=0.2939
+  epoch 18 train_loss=0.1232 val_loss=0.2736
+  epoch 19 train_loss=0.1208 val_loss=0.2677  BEST
+  epoch 20 train_loss=0.1629 val_loss=0.2705
+  epoch 21 train_loss=0.1299 val_loss=0.2742
+  epoch 22 train_loss=0.1171 val_loss=0.2660  BEST
+  epoch 23 train_loss=0.2623 val_loss=0.2643  BEST
+  epoch 24 train_loss=0.0858 val_loss=0.2671
+  epoch 25 train_loss=0.1905 val_loss=0.2657
+  -> test acc=0.8891 f1=0.8568 train=358.57s infer=0.735s best_epoch=23
+########## DONE  E1_2015_to_2020 mts rc=0 16:05:40 ##########
+########## START E2_2015_to_2025 dla 16:05:40 ##########
+[E2_2015_to_2025/dla] params=418904 train_years=(2015,) test=2025 in_ch=9
+  epoch  1 train_loss=0.4086 val_loss=0.7789  BEST
+  epoch  2 train_loss=0.3653 val_loss=0.5952  BEST
+  epoch  3 train_loss=0.3484 val_loss=0.5356  BEST
+  epoch  4 train_loss=0.2693 val_loss=0.5282  BEST
+  epoch  5 train_loss=0.2970 val_loss=0.4574  BEST
+  epoch  6 train_loss=0.3044 val_loss=0.4661
+  epoch  7 train_loss=0.3400 val_loss=0.4446  BEST
+  epoch  8 train_loss=0.1976 val_loss=0.4646
+  epoch  9 train_loss=0.2804 val_loss=0.4265  BEST
+  epoch 10 train_loss=0.2233 val_loss=0.4668
+  epoch 11 train_loss=0.3001 val_loss=0.4005  BEST
+  epoch 12 train_loss=0.2112 val_loss=0.4090
+  epoch 13 train_loss=0.1935 val_loss=0.4074
+  epoch 14 train_loss=0.2817 val_loss=0.3992  BEST
+  epoch 15 train_loss=0.1723 val_loss=0.3937  BEST
+  epoch 16 train_loss=0.1986 val_loss=0.3927  BEST
+  epoch 17 train_loss=0.2162 val_loss=0.3849  BEST
+  epoch 18 train_loss=0.1598 val_loss=0.3888
+  epoch 19 train_loss=0.1859 val_loss=0.4066
+  epoch 20 train_loss=0.2323 val_loss=0.3884
+  epoch 21 train_loss=0.1748 val_loss=0.3791  BEST
+  epoch 22 train_loss=0.1723 val_loss=0.3809
+  epoch 23 train_loss=0.3735 val_loss=0.3838
+  epoch 24 train_loss=0.1357 val_loss=0.3753  BEST
+  epoch 25 train_loss=0.3000 val_loss=0.3801
+  -> test acc=0.7952 f1=0.7861 train=428.07s infer=0.55s best_epoch=24
+########## DONE  E2_2015_to_2025 dla rc=0 16:12:55 ##########
+########## START E2_2015_to_2025 mts 16:12:55 ##########
+[E2_2015_to_2025/mts] params=327768 train_years=(2015,) test=2025 in_ch=19
+  epoch  1 train_loss=0.3169 val_loss=0.5701  BEST
+  epoch  2 train_loss=0.2881 val_loss=0.4622  BEST
+  epoch  3 train_loss=0.2967 val_loss=0.3903  BEST
+  epoch  4 train_loss=0.1999 val_loss=0.4005
+  epoch  5 train_loss=0.2364 val_loss=0.3478  BEST
+  epoch  6 train_loss=0.2321 val_loss=0.3378  BEST
+  epoch  7 train_loss=0.2264 val_loss=0.3179  BEST
+  epoch  8 train_loss=0.1439 val_loss=0.3067  BEST
+  epoch  9 train_loss=0.2017 val_loss=0.3243
+  epoch 10 train_loss=0.1702 val_loss=0.3204
+  epoch 11 train_loss=0.1734 val_loss=0.3082
+  epoch 12 train_loss=0.1588 val_loss=0.2937  BEST
+  epoch 13 train_loss=0.1545 val_loss=0.3055
+  epoch 14 train_loss=0.2090 val_loss=0.2987
+  epoch 15 train_loss=0.1133 val_loss=0.2839  BEST
+  epoch 16 train_loss=0.1474 val_loss=0.2724  BEST
+  epoch 17 train_loss=0.1800 val_loss=0.2939
+  epoch 18 train_loss=0.1232 val_loss=0.2736
+  epoch 19 train_loss=0.1208 val_loss=0.2677  BEST
+  epoch 20 train_loss=0.1629 val_loss=0.2705
+  epoch 21 train_loss=0.1299 val_loss=0.2742
+  epoch 22 train_loss=0.1171 val_loss=0.2660  BEST
+  epoch 23 train_loss=0.2623 val_loss=0.2643  BEST
+  epoch 24 train_loss=0.0858 val_loss=0.2671
+  epoch 25 train_loss=0.1905 val_loss=0.2657
+  -> test acc=0.8382 f1=0.8173 train=354.86s infer=0.68s best_epoch=23
+########## DONE  E2_2015_to_2025 mts rc=0 16:18:56 ##########
+########## START E3_2015_2020_to_2025 dla 16:18:56 ##########
+[E3_2015_2020_to_2025/dla] params=418904 train_years=(2015, 2020) test=2025 in_ch=9
+  epoch  1 train_loss=0.3562 val_loss=0.7582  BEST
+  epoch  2 train_loss=0.3309 val_loss=0.5832  BEST
+  epoch  3 train_loss=0.3096 val_loss=0.5222  BEST
+  epoch  4 train_loss=0.3900 val_loss=0.4719  BEST
+  epoch  5 train_loss=0.4070 val_loss=0.4585  BEST
+  epoch  6 train_loss=0.2555 val_loss=0.4473  BEST
+  epoch  7 train_loss=0.2736 val_loss=0.4400  BEST
+  epoch  8 train_loss=0.2945 val_loss=0.4072  BEST
+  epoch  9 train_loss=0.3223 val_loss=0.4454
+  epoch 10 train_loss=0.2323 val_loss=0.4140
+  epoch 11 train_loss=0.1984 val_loss=0.4310
+  epoch 12 train_loss=0.2383 val_loss=0.4038  BEST
+  epoch 13 train_loss=0.2424 val_loss=0.3932  BEST
+  epoch 14 train_loss=0.2477 val_loss=0.3877  BEST
+  epoch 15 train_loss=0.2260 val_loss=0.3816  BEST
+  epoch 16 train_loss=0.2646 val_loss=0.3677  BEST
+  epoch 17 train_loss=0.2072 val_loss=0.3804
+  epoch 18 train_loss=0.1733 val_loss=0.3694
+  epoch 19 train_loss=0.1765 val_loss=0.3690
+  epoch 20 train_loss=0.2247 val_loss=0.3659  BEST
+  epoch 21 train_loss=0.1886 val_loss=0.3604  BEST
+  epoch 22 train_loss=0.2312 val_loss=0.3633
+  epoch 23 train_loss=0.3002 val_loss=0.3706
+  epoch 24 train_loss=0.2492 val_loss=0.3650
+  epoch 25 train_loss=0.1287 val_loss=0.3677
+  -> test acc=0.8657 f1=0.8505 train=451.68s infer=0.745s best_epoch=21
+########## DONE  E3_2015_2020_to_2025 dla rc=0 16:26:33 ##########
+########## START E3_2015_2020_to_2025 mts 16:26:33 ##########
+[E3_2015_2020_to_2025/mts] params=327768 train_years=(2015, 2020) test=2025 in_ch=19
+  epoch  1 train_loss=0.2959 val_loss=0.5680  BEST
+  epoch  2 train_loss=0.2480 val_loss=0.4646  BEST
+  epoch  3 train_loss=0.2403 val_loss=0.3807  BEST
+  epoch  4 train_loss=0.2870 val_loss=0.3453  BEST
+  epoch  5 train_loss=0.2923 val_loss=0.3625
+  epoch  6 train_loss=0.1775 val_loss=0.3406  BEST
+[E3_2015_2020_to_2025/mts] params=327768 train_years=(2015, 2020) test=2025 in_ch=19
+  epoch  1 train_loss=0.2959 val_loss=0.5680  BEST
+  epoch  2 train_loss=0.2480 val_loss=0.4646  BEST
+  epoch  3 train_loss=0.2403 val_loss=0.3807  BEST
+  epoch  4 train_loss=0.2870 val_loss=0.3453  BEST
+  epoch  5 train_loss=0.2923 val_loss=0.3625
+  epoch  6 train_loss=0.1775 val_loss=0.3406  BEST
+  epoch  7 train_loss=0.2116 val_loss=0.3317  BEST
+  epoch  8 train_loss=0.2098 val_loss=0.2983  BEST
+  epoch  9 train_loss=0.2227 val_loss=0.2969  BEST
+  epoch 10 train_loss=0.1658 val_loss=0.2887  BEST
+  epoch 11 train_loss=0.1480 val_loss=0.2838  BEST
+  epoch 12 train_loss=0.1909 val_loss=0.2957
+  epoch 13 train_loss=0.1817 val_loss=0.2951
+  epoch 14 train_loss=0.1700 val_loss=0.2789  BEST
+  epoch 15 train_loss=0.1840 val_loss=0.2689  BEST
+  epoch 16 train_loss=0.2171 val_loss=0.2712
+  epoch 17 train_loss=0.1378 val_loss=0.2617  BEST
+  epoch 18 train_loss=0.1196 val_loss=0.2592  BEST
+  epoch 19 train_loss=0.1181 val_loss=0.2604
+  epoch 20 train_loss=0.1654 val_loss=0.2606
+  epoch 21 train_loss=0.1488 val_loss=0.2612
+  epoch 22 train_loss=0.1826 val_loss=0.2577  BEST
+  epoch 23 train_loss=0.2011 val_loss=0.2553  BEST
+  epoch 24 train_loss=0.1817 val_loss=0.2563
+  epoch 25 train_loss=0.1002 val_loss=0.2564
+  -> test acc=0.8987 f1=0.8782 train=517.6s infer=0.972s best_epoch=23
+########## DONE  E3_2015_2020_to_2025 mts rerun rc=0 14:01:55 ##########

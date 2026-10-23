@@ -1,0 +1,76 @@
+{
+  "grid": {
+    "width": 693,
+    "height": 669,
+    "crs": "EPSG:4326",
+    "transform": [
+      0.00026949458523585647,
+      0.0,
+      80.55489596743509,
+      0.0,
+      -0.00026949458523585647,
+      16.596285042579748
+    ],
+    "pixel_size_deg": 0.00026949458523585647
+  },
+  "features": [
+    "Blue",
+    "Green",
+    "Red",
+    "NIR",
+    "SWIR1",
+    "SWIR2",
+    "NDVI",
+    "NDBI",
+    "NDWI"
+  ],
+  "label_scheme_native": {
+    "0": "background/unlabeled",
+    "1": "Water",
+    "2": "Urban",
+    "3": "Soil",
+    "4": "Vegetation"
+  },
+  "output_scheme_required": {
+    "1": "Built-up (native 2 Urban)",
+    "2": "Vegetation (native 4)",
+    "3": "Water (native 1)",
+    "4": "Open Land (native 3)",
+    "0": "NoData (native 0)"
+  },
+  "years": {
+    "2015": {
+      "valid_pixels": 348549,
+      "invalid_pixels": 115068,
+      "invalid_reason_nonfinite_features": 101885,
+      "class_counts_valid": {
+        "1": 103421,
+        "2": 212502,
+        "3": 22960,
+        "4": 9666
+      }
+    },
+    "2020": {
+      "valid_pixels": 344072,
+      "invalid_pixels": 119545,
+      "invalid_reason_nonfinite_features": 118729,
+      "class_counts_valid": {
+        "1": 104615,
+        "2": 196966,
+        "3": 28964,
+        "4": 13527
+      }
+    },
+    "2025": {
+      "valid_pixels": 314773,
+      "invalid_pixels": 148844,
+      "invalid_reason_nonfinite_features": 87318,
+      "class_counts_valid": {
+        "1": 124230,
+        "2": 153271,
+        "3": 25289,
+        "4": 11983
+      }
+    }
+  }
+}

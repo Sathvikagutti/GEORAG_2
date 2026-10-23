@@ -1,0 +1,103 @@
+{
+  "experiment": "E1_2015_to_2020",
+  "train_years": [
+    2015
+  ],
+  "test_year": 2020,
+  "seed": 42,
+  "model": {
+    "name": "mts-lite-adapted",
+    "kind": "mts",
+    "architecture_source": "custom adaptation in the Swin-style shifted-window direction of Voelsen et al. 2024 MTS; NO official code was available",
+    "params": 327768,
+    "input_channels": 19
+  },
+  "input_type": "patch_tokens_19ch_hist_cur_flag",
+  "validation_type": "temporal_holdout_test_year",
+  "config": {
+    "optimizer": "AdamW",
+    "lr": 0.0003,
+    "weight_decay": 0.01,
+    "batch": 4,
+    "steps_per_epoch": 80,
+    "crop_px": 140,
+    "max_epochs": 25,
+    "patience": 5,
+    "class_weights": {
+      "1": 0.5641076810042075,
+      "2": 0.3935347699887477,
+      "3": 1.1972320600332522,
+      "4": 1.8451254889737922
+    },
+    "normalization": "per-channel z-score fit on train pixels only",
+    "loss": "cross-entropy with sqrt-inverse-frequency class weights"
+  },
+  "n_train_pixels": 209129,
+  "n_val_pixels": 34855,
+  "n_test_pixels": 344072,
+  "hardware": "CPU-only, 2 cores, no GPU (torch.set_num_threads(2))",
+  "results": {
+    "accuracy": 0.8890842614336534,
+    "precision_macro": 0.862707898163499,
+    "recall_macro": 0.8551921530751048,
+    "f1_macro": 0.8567679019151615,
+    "kappa": 0.80502398091312,
+    "per_class": {
+      "1": {
+        "precision": 0.909617203496409,
+        "recall": 0.8365626344214501,
+        "f1": 0.8715617344195032
+      },
+      "2": {
+        "precision": 0.9038211490638703,
+        "recall": 0.928155113065199,
+        "f1": 0.9158265182160883
+      },
+      "3": {
+        "precision": 0.7373020370425601,
+        "recall": 0.85350780278967,
+        "f1": 0.7911606099883187
+      },
+      "4": {
+        "precision": 0.9000912030511566,
+        "recall": 0.8025430620241,
+        "f1": 0.848522745036736
+      }
+    },
+    "confusion_matrix": [
+      [
+        87517,
+        14538,
+        2287,
+        273
+      ],
+      [
+        7843,
+        182815,
+        5919,
+        389
+      ],
+      [
+        473,
+        3227,
+        24721,
+        543
+      ],
+      [
+        380,
+        1689,
+        602,
+        10856
+      ]
+    ],
+    "n_samples": 344072,
+    "train_time_s": 358.57,
+    "inference_time_s": 0.735,
+    "model_size_bytes": 1341077,
+    "checkpoint": "experiments/transformers/checkpoints/E1_2015_to_2020_mts_seed42.pt",
+    "params": 327768,
+    "best_epoch": 23,
+    "epochs_run": 25,
+    "best_val_loss": 0.26428
+  }
+}

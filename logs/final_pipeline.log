@@ -1,0 +1,40 @@
+=== [0] waiting for E3 mts metrics ===
+E3 mts metrics present
+=== [1] spatial transformer runs (dla, mts on E0_2015) 14:01:58 ===
+=== [2] spatial validation (RF+XGB+collect) 14:13:05 ===
+=== [3] full results collection 14:14:49 ===
+{
+  "dla": {
+    "mean_temporal_f1_macro": 0.8256,
+    "mean_temporal_accuracy": 0.8403,
+    "mean_sameyear_f1_macro": 0.8575,
+    "mean_train_time_s": 431.0,
+    "n_temporal_runs": 3
+  },
+  "mts": {
+    "mean_temporal_f1_macro": 0.8508,
+    "mean_temporal_accuracy": 0.8753,
+    "mean_sameyear_f1_macro": 0.8932,
+    "mean_train_time_s": 387.1,
+    "n_temporal_runs": 3
+  },
+  "random_forest": {
+    "mean_temporal_f1_macro": 0.7678,
+    "mean_temporal_accuracy": 0.7888,
+    "mean_sameyear_f1_macro": 0.8457,
+    "mean_train_time_s": 203.5,
+    "n_temporal_runs": 3
+  },
+  "xgboost": {
+    "mean_temporal_f1_macro": 0.771,
+    "mean_temporal_accuracy": 0.7916,
+    "mean_sameyear_f1_macro": 0.8386,
+    "mean_train_time_s": 20.3,
+    "n_temporal_runs": 3
+  }
+}
+wrote /workspace/chats/7ce8d2aba139f20f57ba8e12/results/model_comparison.csv (24 rows), /workspace/chats/7ce8d2aba139f20f57ba8e12/results/per_class_metrics.csv, model_comparison.md, environment.json, recommendation.json
+=== [4] prediction rasters (all 4 families) 14:14:54 ===
+=== [5] change analysis per family 14:25:30 ===
+=== [6] figures 14:25:43 ===
+ALL_FINAL_STEPS_FINISHED 14:25:56

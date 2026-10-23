@@ -1,0 +1,103 @@
+{
+  "experiment": "E0_2015",
+  "train_years": [
+    2015
+  ],
+  "test_year": 2015,
+  "seed": 42,
+  "model": {
+    "name": "mts-lite-adapted",
+    "kind": "mts",
+    "architecture_source": "custom adaptation in the Swin-style shifted-window direction of Voelsen et al. 2024 MTS; NO official code was available",
+    "params": 327768,
+    "input_channels": 19
+  },
+  "input_type": "patch_tokens_19ch_hist_cur_flag",
+  "validation_type": "stratified_random_pixel_split",
+  "config": {
+    "optimizer": "AdamW",
+    "lr": 0.0003,
+    "weight_decay": 0.01,
+    "batch": 4,
+    "steps_per_epoch": 80,
+    "crop_px": 140,
+    "max_epochs": 25,
+    "patience": 5,
+    "class_weights": {
+      "1": 0.5641076810042075,
+      "2": 0.3935347699887477,
+      "3": 1.1972320600332522,
+      "4": 1.8451254889737922
+    },
+    "normalization": "per-channel z-score fit on train pixels only",
+    "loss": "cross-entropy with sqrt-inverse-frequency class weights"
+  },
+  "n_train_pixels": 209129,
+  "n_val_pixels": 34855,
+  "n_test_pixels": 104565,
+  "hardware": "CPU-only, 2 cores, no GPU (torch.set_num_threads(2))",
+  "results": {
+    "accuracy": 0.9024338927939559,
+    "precision_macro": 0.8211046047611252,
+    "recall_macro": 0.8901976555120632,
+    "f1_macro": 0.8512486937306422,
+    "kappa": 0.8207250528568423,
+    "per_class": {
+      "1": {
+        "precision": 0.8928238882645689,
+        "recall": 0.8962194217939214,
+        "f1": 0.8945184327349932
+      },
+      "2": {
+        "precision": 0.937020316027088,
+        "recall": 0.9115778576022336,
+        "f1": 0.9241240031485796
+      },
+      "3": {
+        "precision": 0.7679682329583057,
+        "recall": 0.8423344947735192,
+        "f1": 0.8034341895728034
+      },
+      "4": {
+        "precision": 0.6866059817945384,
+        "recall": 0.9106588478785789,
+        "f1": 0.7829181494661922
+      }
+    },
+    "confusion_matrix": [
+      [
+        27807,
+        2895,
+        235,
+        90
+      ],
+      [
+        3149,
+        58114,
+        1467,
+        1021
+      ],
+      [
+        160,
+        832,
+        5802,
+        94
+      ],
+      [
+        29,
+        179,
+        51,
+        2640
+      ]
+    ],
+    "n_samples": 104565,
+    "train_time_s": 367.0,
+    "inference_time_s": 0.677,
+    "model_size_bytes": 1340293,
+    "checkpoint": "experiments/transformers/checkpoints/E0_2015_mts_seed42.pt",
+    "params": 327768,
+    "best_epoch": 23,
+    "epochs_run": 25,
+    "best_val_loss": 0.26428
+  }
+}

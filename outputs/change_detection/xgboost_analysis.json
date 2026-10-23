@@ -1,0 +1,286 @@
+{
+  "areas": {
+    "2015": {
+      "total_mapped_pixels": 361732,
+      "total_mapped_area_m2": 310387852.4297352,
+      "per_class": {
+        "1": {
+          "pixel_count": 239573,
+          "area_m2": 205567745.54001886,
+          "area_ha": 20556.774554001884
+        },
+        "2": {
+          "pixel_count": 10941,
+          "area_m2": 9389414.804072425,
+          "area_ha": 938.9414804072425
+        },
+        "3": {
+          "pixel_count": 89082,
+          "area_m2": 76437294.55952282,
+          "area_ha": 7643.7294559522825
+        },
+        "4": {
+          "pixel_count": 22136,
+          "area_m2": 18993397.526121058,
+          "area_ha": 1899.3397526121057
+        }
+      },
+      "csv": "outputs/areas/xgboost_area_2015.csv"
+    },
+    "2020": {
+      "total_mapped_pixels": 344888,
+      "total_mapped_area_m2": 295934121.5327145,
+      "per_class": {
+        "1": {
+          "pixel_count": 207822,
+          "area_m2": 178321689.35330635,
+          "area_ha": 17832.168935330636
+        },
+        "2": {
+          "pixel_count": 14212,
+          "area_m2": 12196759.72170312,
+          "area_ha": 1219.675972170312
+        },
+        "3": {
+          "pixel_count": 96444,
+          "area_m2": 82754501.70530888,
+          "area_ha": 8275.450170530888
+        },
+        "4": {
+          "pixel_count": 26410,
+          "area_m2": 22661170.75239612,
+          "area_ha": 2266.117075239612
+        }
+      },
+      "csv": "outputs/areas/xgboost_area_2020.csv"
+    },
+    "2025": {
+      "total_mapped_pixels": 376299,
+      "total_mapped_area_m2": 322859683.1448654,
+      "per_class": {
+        "1": {
+          "pixel_count": 206813,
+          "area_m2": 177436439.94052997,
+          "area_ha": 17743.643994052996
+        },
+        "2": {
+          "pixel_count": 13357,
+          "area_m2": 11462461.383831643,
+          "area_ha": 1146.2461383831642
+        },
+        "3": {
+          "pixel_count": 126208,
+          "area_m2": 108289012.14831704,
+          "area_ha": 10828.901214831703
+        },
+        "4": {
+          "pixel_count": 29921,
+          "area_m2": 25671769.672186717,
+          "area_ha": 2567.176967218672
+        }
+      },
+      "csv": "outputs/areas/xgboost_area_2025.csv"
+    }
+  },
+  "change_pairs": [
+    {
+      "model": "xgboost",
+      "pair": "2015->2020",
+      "common_pixels": 344865,
+      "changed_pixels": 65823,
+      "builtup": {
+        "gain_pixels": 15198,
+        "gain_area_ha": 1304.09692516869,
+        "loss_pixels": 44707,
+        "loss_area_ha": 3836.3042110252354,
+        "net_change_ha": -2532.2072858565452,
+        "stable_pixels": 192621,
+        "stable_area_ha": 16527.814608012515
+      },
+      "transition_counts_matrix_rows_from_cols_to": [
+        [
+          192621,
+          4909,
+          34621,
+          5177
+        ],
+        [
+          553,
+          7873,
+          598,
+          1885
+        ],
+        [
+          12074,
+          1260,
+          60686,
+          1486
+        ],
+        [
+          2571,
+          170,
+          519,
+          17862
+        ]
+      ],
+      "transition_area_ha_matrix": [
+        [
+          16527.8146,
+          421.2972,
+          2970.7924,
+          444.2146
+        ],
+        [
+          47.4378,
+          675.665,
+          51.3173,
+          161.7751
+        ],
+        [
+          1036.0639,
+          108.1246,
+          5207.091,
+          127.5183
+        ],
+        [
+          220.5952,
+          14.5892,
+          44.5334,
+          1532.6091
+        ]
+      ],
+      "files": {
+        "change_raster": "outputs/change_detection/xgboost/change_2015_2020.tif",
+        "counts_csv": "outputs/change_detection/xgboost/transition_matrix_2015_2020_counts.csv",
+        "area_csv": "outputs/change_detection/xgboost/transition_matrix_2015_2020_area_ha.csv",
+        "builtup_csv": "outputs/change_detection/xgboost/builtup_expansion_2015_2020.csv"
+      }
+    },
+    {
+      "model": "xgboost",
+      "pair": "2020->2025",
+      "common_pixels": 299121,
+      "changed_pixels": 48188,
+      "builtup": {
+        "gain_pixels": 12697,
+        "gain_area_ha": 1089.4478694241234,
+        "loss_pixels": 26713,
+        "loss_area_ha": 2292.011683178647,
+        "net_change_ha": -1202.5638137545238,
+        "stable_pixels": 148676,
+        "stable_area_ha": 12756.222947756676
+      },
+      "transition_counts_matrix_rows_from_cols_to": [
+        [
+          148676,
+          901,
+          23974,
+          1838
+        ],
+        [
+          235,
+          8173,
+          1388,
+          1498
+        ],
+        [
+          10859,
+          2024,
+          75243,
+          660
+        ],
+        [
+          1603,
+          2027,
+          1181,
+          18841
+        ]
+      ],
+      "transition_area_ha_matrix": [
+        [
+          12756.2229,
+          77.3079,
+          2057.0106,
+          157.6931
+        ],
+        [
+          20.1599,
+          701.3904,
+          119.1,
+          128.5603
+        ],
+        [
+          931.7529,
+          173.6889,
+          6456.0451,
+          56.6328
+        ],
+        [
+          137.5351,
+          173.9537,
+          101.336,
+          1616.5561
+        ]
+      ],
+      "files": {
+        "change_raster": "outputs/change_detection/xgboost/change_2020_2025.tif",
+        "counts_csv": "outputs/change_detection/xgboost/transition_matrix_2020_2025_counts.csv",
+        "area_csv": "outputs/change_detection/xgboost/transition_matrix_2020_2025_area_ha.csv",
+        "builtup_csv": "outputs/change_detection/xgboost/builtup_expansion_2020_2025.csv"
+      }
+    }
+  ],
+  "urban_growth": {
+    "model": "xgboost",
+    "note": "urban growth = transitions INTO output class 1 (Built-up) only; other transitions are land-cover change, not growth",
+    "area_method": "geodesic WGS84 pixel area per grid row x counts",
+    "intervals": {
+      "2015->2020": {
+        "gain_pixels": 15198,
+        "gain_area_ha": 1304.09692516869,
+        "loss_pixels": 44707,
+        "loss_area_ha": 3836.3042110252354,
+        "net_change_ha": -2532.2072858565452,
+        "stable_pixels": 192621,
+        "stable_area_ha": 16527.814608012515,
+        "source_breakdown": {
+          "Vegetation": {
+            "pixels_into_builtup": 553,
+            "area_ha_into_builtup": 47.4378
+          },
+          "Water": {
+            "pixels_into_builtup": 12074,
+            "area_ha_into_builtup": 1036.0639
+          },
+          "Open Land": {
+            "pixels_into_builtup": 2571,
+            "area_ha_into_builtup": 220.5952
+          }
+        }
+      },
+      "2020->2025": {
+        "gain_pixels": 12697,
+        "gain_area_ha": 1089.4478694241234,
+        "loss_pixels": 26713,
+        "loss_area_ha": 2292.011683178647,
+        "net_change_ha": -1202.5638137545238,
+        "stable_pixels": 148676,
+        "stable_area_ha": 12756.222947756676,
+        "source_breakdown": {
+          "Vegetation": {
+            "pixels_into_builtup": 235,
+            "area_ha_into_builtup": 20.1599
+          },
+          "Water": {
+            "pixels_into_builtup": 10859,
+            "area_ha_into_builtup": 931.7529
+          },
+          "Open Land": {
+            "pixels_into_builtup": 1603,
+            "area_ha_into_builtup": 137.5351
+          }
+        }
+      }
+    }
+  }
+}

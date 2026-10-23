@@ -1,0 +1,103 @@
+{
+  "experiment": "E1_2015_to_2020",
+  "train_years": [
+    2015
+  ],
+  "test_year": 2020,
+  "seed": 42,
+  "model": {
+    "name": "dla-lite-adapted",
+    "kind": "dla",
+    "architecture_source": "custom adaptation in the token+channel dual-attention direction of Bansal & Tripathi 2024; NO official code was available",
+    "params": 418904,
+    "input_channels": 9
+  },
+  "input_type": "patch_tokens_9ch",
+  "validation_type": "temporal_holdout_test_year",
+  "config": {
+    "optimizer": "AdamW",
+    "lr": 0.0003,
+    "weight_decay": 0.01,
+    "batch": 4,
+    "steps_per_epoch": 80,
+    "crop_px": 140,
+    "max_epochs": 25,
+    "patience": 5,
+    "class_weights": {
+      "1": 0.5641076810042075,
+      "2": 0.3935347699887477,
+      "3": 1.1972320600332522,
+      "4": 1.8451254889737922
+    },
+    "normalization": "per-channel z-score fit on train pixels only",
+    "loss": "cross-entropy with sqrt-inverse-frequency class weights"
+  },
+  "n_train_pixels": 209129,
+  "n_val_pixels": 34855,
+  "n_test_pixels": 344072,
+  "hardware": "CPU-only, 2 cores, no GPU (torch.set_num_threads(2))",
+  "results": {
+    "accuracy": 0.8599537306145225,
+    "precision_macro": 0.8790870093158669,
+    "recall_macro": 0.81622168699573,
+    "f1_macro": 0.8400795898655198,
+    "kappa": 0.7433471484184068,
+    "per_class": {
+      "1": {
+        "precision": 0.9417336623417973,
+        "recall": 0.6785451417100798,
+        "f1": 0.7887640074891802
+      },
+      "2": {
+        "precision": 0.8348729690844651,
+        "recall": 0.966313983123991,
+        "f1": 0.895797544135435
+      },
+      "3": {
+        "precision": 0.820342730790492,
+        "recall": 0.8197762739953045,
+        "f1": 0.8200594045727706
+      },
+      "4": {
+        "precision": 0.9193986750467131,
+        "recall": 0.8002513491535448,
+        "f1": 0.8556974032646931
+      }
+    },
+    "confusion_matrix": [
+      [
+        70986,
+        31593,
+        1719,
+        317
+      ],
+      [
+        3801,
+        190331,
+        2774,
+        60
+      ],
+      [
+        310,
+        4338,
+        23744,
+        572
+      ],
+      [
+        281,
+        1714,
+        707,
+        10825
+      ]
+    ],
+    "n_samples": 344072,
+    "train_time_s": 411.29,
+    "inference_time_s": 0.592,
+    "model_size_bytes": 1730317,
+    "checkpoint": "experiments/transformers/checkpoints/E1_2015_to_2020_dla_seed42.pt",
+    "params": 418904,
+    "best_epoch": 24,
+    "epochs_run": 25,
+    "best_val_loss": 0.37531
+  }
+}

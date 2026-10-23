@@ -1,0 +1,15 @@
+{
+  "python": "3.12.3",
+  "platform": "Linux-6.1.102-x86_64-with-glibc2.39",
+  "cpu_count": 8,
+  "gpu": "none (CPU-only host)",
+  "numpy": "2.5.4",
+  "pandas": "3.1.0",
+  "scikit_learn": "1.9.1",
+  "xgboost": "3.4.1",
+  "torch": "2.14.1+cpu",
+  "rasterio": "1.5.2",
+  "torch_mkldnn_disabled": false,
+  "seed_everywhere": 42,
+  "cpu_model": "19/01"
+}

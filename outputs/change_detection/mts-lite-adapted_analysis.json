@@ -1,0 +1,286 @@
+{
+  "areas": {
+    "2015": {
+      "total_mapped_pixels": 361732,
+      "total_mapped_area_m2": 310387852.4297352,
+      "per_class": {
+        "1": {
+          "pixel_count": 231369,
+          "area_m2": 198528080.3349391,
+          "area_ha": 19852.808033493908
+        },
+        "2": {
+          "pixel_count": 10656,
+          "area_m2": 9145030.210216463,
+          "area_ha": 914.5030210216463
+        },
+        "3": {
+          "pixel_count": 95672,
+          "area_m2": 82091545.11793116,
+          "area_ha": 8209.154511793116
+        },
+        "4": {
+          "pixel_count": 24035,
+          "area_m2": 20623196.76664847,
+          "area_ha": 2062.319676664847
+        }
+      },
+      "csv": "outputs/areas/mts-lite-adapted_area_2015.csv"
+    },
+    "2020": {
+      "total_mapped_pixels": 344888,
+      "total_mapped_area_m2": 295934121.5327145,
+      "per_class": {
+        "1": {
+          "pixel_count": 198188,
+          "area_m2": 170055942.92914027,
+          "area_ha": 17005.594292914026
+        },
+        "2": {
+          "pixel_count": 14758,
+          "area_m2": 12665466.41624222,
+          "area_ha": 1266.546641624222
+        },
+        "3": {
+          "pixel_count": 103115,
+          "area_m2": 88477602.49287936,
+          "area_ha": 8847.760249287936
+        },
+        "4": {
+          "pixel_count": 28827,
+          "area_m2": 24735109.69445265,
+          "area_ha": 2473.510969445265
+        }
+      },
+      "csv": "outputs/areas/mts-lite-adapted_area_2020.csv"
+    },
+    "2025": {
+      "total_mapped_pixels": 376299,
+      "total_mapped_area_m2": 322859683.1448654,
+      "per_class": {
+        "1": {
+          "pixel_count": 197301,
+          "area_m2": 169274833.61635244,
+          "area_ha": 16927.483361635244
+        },
+        "2": {
+          "pixel_count": 13683,
+          "area_m2": 11742291.65462903,
+          "area_ha": 1174.229165462903
+        },
+        "3": {
+          "pixel_count": 132975,
+          "area_m2": 114095505.87864323,
+          "area_ha": 11409.550587864323
+        },
+        "4": {
+          "pixel_count": 32340,
+          "area_m2": 27747051.995240673,
+          "area_ha": 2774.705199524067
+        }
+      },
+      "csv": "outputs/areas/mts-lite-adapted_area_2025.csv"
+    }
+  },
+  "change_pairs": [
+    {
+      "model": "mts-lite-adapted",
+      "pair": "2015->2020",
+      "common_pixels": 344865,
+      "changed_pixels": 51373,
+      "builtup": {
+        "gain_pixels": 7376,
+        "gain_area_ha": 632.9027287594013,
+        "loss_pixels": 39227,
+        "loss_area_ha": 3365.975312679375,
+        "net_change_ha": -2733.0725839199736,
+        "stable_pixels": 190812,
+        "stable_area_ha": 16372.691564154635
+      },
+      "transition_counts_matrix_rows_from_cols_to": [
+        [
+          190812,
+          5539,
+          27048,
+          6640
+        ],
+        [
+          164,
+          8351,
+          57,
+          2066
+        ],
+        [
+          4626,
+          479,
+          75063,
+          855
+        ],
+        [
+          2586,
+          389,
+          924,
+          19266
+        ]
+      ],
+      "transition_area_ha_matrix": [
+        [
+          16372.6916,
+          475.3704,
+          2320.8808,
+          569.7241
+        ],
+        [
+          14.0694,
+          716.6888,
+          4.8911,
+          177.3089
+        ],
+        [
+          396.9517,
+          41.1037,
+          6440.7306,
+          73.3659
+        ],
+        [
+          221.8816,
+          33.3838,
+          79.2843,
+          1653.1121
+        ]
+      ],
+      "files": {
+        "change_raster": "outputs/change_detection/mts-lite-adapted/change_2015_2020.tif",
+        "counts_csv": "outputs/change_detection/mts-lite-adapted/transition_matrix_2015_2020_counts.csv",
+        "area_csv": "outputs/change_detection/mts-lite-adapted/transition_matrix_2015_2020_area_ha.csv",
+        "builtup_csv": "outputs/change_detection/mts-lite-adapted/builtup_expansion_2015_2020.csv"
+      }
+    },
+    {
+      "model": "mts-lite-adapted",
+      "pair": "2020->2025",
+      "common_pixels": 299121,
+      "changed_pixels": 32032,
+      "builtup": {
+        "gain_pixels": 7231,
+        "gain_area_ha": 620.4403070972182,
+        "loss_pixels": 18686,
+        "loss_area_ha": 1603.260736649645,
+        "net_change_ha": -982.8204295524267,
+        "stable_pixels": 145861,
+        "stable_area_ha": 12514.705525302063
+      },
+      "transition_counts_matrix_rows_from_cols_to": [
+        [
+          145861,
+          1071,
+          16084,
+          1531
+        ],
+        [
+          440,
+          9378,
+          134,
+          1748
+        ],
+        [
+          5475,
+          676,
+          90774,
+          412
+        ],
+        [
+          1316,
+          2365,
+          780,
+          21076
+        ]
+      ],
+      "transition_area_ha_matrix": [
+        [
+          12514.7055,
+          91.9012,
+          1380.0037,
+          131.3559
+        ],
+        [
+          37.7522,
+          804.8,
+          11.4973,
+          150.0152
+        ],
+        [
+          469.7813,
+          58.0095,
+          7788.6637,
+          35.3509
+        ],
+        [
+          112.9069,
+          202.959,
+          66.9295,
+          1808.3142
+        ]
+      ],
+      "files": {
+        "change_raster": "outputs/change_detection/mts-lite-adapted/change_2020_2025.tif",
+        "counts_csv": "outputs/change_detection/mts-lite-adapted/transition_matrix_2020_2025_counts.csv",
+        "area_csv": "outputs/change_detection/mts-lite-adapted/transition_matrix_2020_2025_area_ha.csv",
+        "builtup_csv": "outputs/change_detection/mts-lite-adapted/builtup_expansion_2020_2025.csv"
+      }
+    }
+  ],
+  "urban_growth": {
+    "model": "mts-lite-adapted",
+    "note": "urban growth = transitions INTO output class 1 (Built-up) only; other transitions are land-cover change, not growth",
+    "area_method": "geodesic WGS84 pixel area per grid row x counts",
+    "intervals": {
+      "2015->2020": {
+        "gain_pixels": 7376,
+        "gain_area_ha": 632.9027287594013,
+        "loss_pixels": 39227,
+        "loss_area_ha": 3365.975312679375,
+        "net_change_ha": -2733.0725839199736,
+        "stable_pixels": 190812,
+        "stable_area_ha": 16372.691564154635,
+        "source_breakdown": {
+          "Vegetation": {
+            "pixels_into_builtup": 164,
+            "area_ha_into_builtup": 14.0694
+          },
+          "Water": {
+            "pixels_into_builtup": 4626,
+            "area_ha_into_builtup": 396.9517
+          },
+          "Open Land": {
+            "pixels_into_builtup": 2586,
+            "area_ha_into_builtup": 221.8816
+          }
+        }
+      },
+      "2020->2025": {
+        "gain_pixels": 7231,
+        "gain_area_ha": 620.4403070972182,
+        "loss_pixels": 18686,
+        "loss_area_ha": 1603.260736649645,
+        "net_change_ha": -982.8204295524267,
+        "stable_pixels": 145861,
+        "stable_area_ha": 12514.705525302063,
+        "source_breakdown": {
+          "Vegetation": {
+            "pixels_into_builtup": 440,
+            "area_ha_into_builtup": 37.7522
+          },
+          "Water": {
+            "pixels_into_builtup": 5475,
+            "area_ha_into_builtup": 469.7813
+          },
+          "Open Land": {
+            "pixels_into_builtup": 1316,
+            "area_ha_into_builtup": 112.9069
+          }
+        }
+      }
+    }
+  }
+}

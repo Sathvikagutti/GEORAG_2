@@ -1,0 +1,178 @@
+{
+  "random_forest": {
+    "2015": {
+      "file": "outputs/predictions/pred_2015_random_forest.tif",
+      "mapped_pixels": 361732,
+      "nodata_pixels": 101885,
+      "class_counts_out": {
+        "0": 101885,
+        "1": 231576,
+        "2": 9437,
+        "3": 98721,
+        "4": 21998
+      },
+      "inference_time_s": 201.314,
+      "wall_s": 201.7
+    },
+    "2020": {
+      "file": "outputs/predictions/pred_2020_random_forest.tif",
+      "mapped_pixels": 344888,
+      "nodata_pixels": 118729,
+      "class_counts_out": {
+        "0": 118729,
+        "1": 202678,
+        "2": 13303,
+        "3": 101130,
+        "4": 27777
+      },
+      "inference_time_s": 209.599,
+      "wall_s": 209.8
+    },
+    "2025": {
+      "file": "outputs/predictions/pred_2025_random_forest.tif",
+      "mapped_pixels": 376299,
+      "nodata_pixels": 87318,
+      "class_counts_out": {
+        "0": 87318,
+        "1": 202541,
+        "2": 12272,
+        "3": 131387,
+        "4": 30099
+      },
+      "inference_time_s": 171.284,
+      "wall_s": 171.4
+    }
+  },
+  "xgboost": {
+    "2015": {
+      "file": "outputs/predictions/pred_2015_xgboost.tif",
+      "mapped_pixels": 361732,
+      "nodata_pixels": 101885,
+      "class_counts_out": {
+        "0": 101885,
+        "1": 239573,
+        "2": 10941,
+        "3": 89082,
+        "4": 22136
+      },
+      "inference_time_s": 11.781,
+      "wall_s": 11.9
+    },
+    "2020": {
+      "file": "outputs/predictions/pred_2020_xgboost.tif",
+      "mapped_pixels": 344888,
+      "nodata_pixels": 118729,
+      "class_counts_out": {
+        "0": 118729,
+        "1": 207822,
+        "2": 14212,
+        "3": 96444,
+        "4": 26410
+      },
+      "inference_time_s": 12.343,
+      "wall_s": 12.4
+    },
+    "2025": {
+      "file": "outputs/predictions/pred_2025_xgboost.tif",
+      "mapped_pixels": 376299,
+      "nodata_pixels": 87318,
+      "class_counts_out": {
+        "0": 87318,
+        "1": 206813,
+        "2": 13357,
+        "3": 126208,
+        "4": 29921
+      },
+      "inference_time_s": 11.797,
+      "wall_s": 11.9
+    }
+  },
+  "dla": {
+    "2015": {
+      "file": "outputs/predictions/pred_2015_dla-lite-adapted.tif",
+      "mapped_pixels": 361732,
+      "nodata_pixels": 101885,
+      "class_counts_out": {
+        "0": 101885,
+        "1": 234751,
+        "2": 10940,
+        "3": 95043,
+        "4": 20998
+      },
+      "inference_time_s": 1.55,
+      "wall_s": 4.7
+    },
+    "2020": {
+      "file": "outputs/predictions/pred_2020_dla-lite-adapted.tif",
+      "mapped_pixels": 344888,
+      "nodata_pixels": 118729,
+      "class_counts_out": {
+        "0": 118729,
+        "1": 202018,
+        "2": 14092,
+        "3": 100332,
+        "4": 28446
+      },
+      "inference_time_s": 1.511,
+      "wall_s": 1.7
+    },
+    "2025": {
+      "file": "outputs/predictions/pred_2025_dla-lite-adapted.tif",
+      "mapped_pixels": 376299,
+      "nodata_pixels": 87318,
+      "class_counts_out": {
+        "0": 87318,
+        "1": 200680,
+        "2": 13552,
+        "3": 130018,
+        "4": 32049
+      },
+      "inference_time_s": 1.078,
+      "wall_s": 1.3
+    }
+  },
+  "mts": {
+    "2015": {
+      "file": "outputs/predictions/pred_2015_mts-lite-adapted.tif",
+      "mapped_pixels": 361732,
+      "nodata_pixels": 101885,
+      "class_counts_out": {
+        "0": 101885,
+        "1": 231369,
+        "2": 10656,
+        "3": 95672,
+        "4": 24035
+      },
+      "inference_time_s": 1.656,
+      "wall_s": 2.0
+    },
+    "2020": {
+      "file": "outputs/predictions/pred_2020_mts-lite-adapted.tif",
+      "mapped_pixels": 344888,
+      "nodata_pixels": 118729,
+      "class_counts_out": {
+        "0": 118729,
+        "1": 198188,
+        "2": 14758,
+        "3": 103115,
+        "4": 28827
+      },
+      "inference_time_s": 0.962,
+      "wall_s": 1.2
+    },
+    "2025": {
+      "file": "outputs/predictions/pred_2025_mts-lite-adapted.tif",
+      "mapped_pixels": 376299,
+      "nodata_pixels": 87318,
+      "class_counts_out": {
+        "0": 87318,
+        "1": 197301,
+        "2": 13683,
+        "3": 132975,
+        "4": 32340
+      },
+      "inference_time_s": 1.061,
+      "wall_s": 1.3
+    }
+  }
+}

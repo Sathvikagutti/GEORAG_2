@@ -1,0 +1,142 @@
+{
+  "experiment": "E0_2025",
+  "train_years": [
+    2025
+  ],
+  "test_year": 2025,
+  "seed": 42,
+  "input_type": "tabular_9_features",
+  "validation_type": "stratified_random_pixel_split",
+  "n_train": 188863,
+  "n_val": 31477,
+  "n_test": 94433,
+  "class_weights": {
+    "1": 0.5452200777043656,
+    "2": 0.4908587128726747,
+    "3": 1.2084396855955934,
+    "4": 1.7554815238273662
+  },
+  "models": {
+    "random_forest": {
+      "accuracy": 0.8764732667605604,
+      "precision_macro": 0.8811538952146314,
+      "recall_macro": 0.8681314893078045,
+      "f1_macro": 0.8736431513392363,
+      "kappa": 0.7922540259692402,
+      "per_class": {
+        "1": {
+          "precision": 0.8834601521826192,
+          "recall": 0.8286779897501946,
+          "f1": 0.8551926564858017
+        },
+        "2": {
+          "precision": 0.8679670071020692,
+          "recall": 0.9222739332782394,
+          "f1": 0.8942967703841166
+        },
+        "3": {
+          "precision": 0.9068079547104079,
+          "recall": 0.8233821009621721,
+          "f1": 0.8630837247858525
+        },
+        "4": {
+          "precision": 0.8663804668634291,
+          "recall": 0.898191933240612,
+          "f1": 0.8819994537011745
+        }
+      },
+      "confusion_matrix": [
+        [
+          30884,
+          5846,
+          347,
+          192
+        ],
+        [
+          3262,
+          42408,
+          233,
+          79
+        ],
+        [
+          528,
+          585,
+          6247,
+          227
+        ],
+        [
+          284,
+          20,
+          62,
+          3229
+        ]
+      ],
+      "n_samples": 94433,
+      "train_time_s": 109.7,
+      "inference_time_s": 2.39,
+      "model_size_bytes": 931620796,
+      "checkpoint": null,
+      "checkpoint_note": "RF pickle was measured then discarded (too large to bundle); retrain exactly with src/02_run_baselines.py, seed 42"
+    },
+    "xgboost": {
+      "accuracy": 0.8739211928033632,
+      "precision_macro": 0.8686006629870524,
+      "recall_macro": 0.8731922819777664,
+      "f1_macro": 0.8697032183841716,
+      "kappa": 0.7886063543054032,
+      "per_class": {
+        "1": {
+          "precision": 0.8838354743936863,
+          "recall": 0.823338431404116,
+          "f1": 0.852515037437315
+        },
+        "2": {
+          "precision": 0.8678876829468838,
+          "recall": 0.9182071245269888,
+          "f1": 0.8923385818450809
+        },
+        "3": {
+          "precision": 0.8895144264602393,
+          "recall": 0.8330038223276658,
+          "f1": 0.860332153552954
+        },
+        "4": {
+          "precision": 0.8331650681474003,
+          "recall": 0.9182197496522948,
+          "f1": 0.8736271007013365
+        }
+      },
+      "confusion_matrix": [
+        [
+          30685,
+          5864,
+          416,
+          304
+        ],
+        [
+          3356,
+          42221,
+          313,
+          92
+        ],
+        [
+          461,
+          541,
+          6320,
+          265
+        ],
+        [
+          216,
+          22,
+          56,
+          3301
+        ]
+      ],
+      "n_samples": 94433,
+      "train_time_s": 13.52,
+      "inference_time_s": 0.993,
+      "best_iteration": 400,
+      "model_size_bytes": 5793121
+    }
+  }
+}

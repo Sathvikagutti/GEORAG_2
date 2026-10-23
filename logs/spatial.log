@@ -1,0 +1,40 @@
+[E0_2015/dla] params=418904 train_years=(2015,) test=2015 in_ch=9
+  epoch  1 train_loss=0.3598 val_loss=0.8183  BEST
+  epoch  2 train_loss=0.4304 val_loss=0.6574  BEST
+  epoch  3 train_loss=0.3457 val_loss=0.6011  BEST
+  epoch  4 train_loss=0.1856 val_loss=0.5685  BEST
+  epoch  5 train_loss=0.2577 val_loss=0.5606  BEST
+  epoch  6 train_loss=0.2956 val_loss=0.5705
+  epoch  7 train_loss=0.1913 val_loss=0.5555  BEST
+  epoch  8 train_loss=0.2273 val_loss=0.5411  BEST
+  epoch  9 train_loss=0.3293 val_loss=0.5273  BEST
+  epoch 10 train_loss=0.2624 val_loss=0.5222  BEST
+  epoch 11 train_loss=0.2021 val_loss=0.5308
+  epoch 12 train_loss=0.2136 val_loss=0.5488
+  epoch 13 train_loss=0.2307 val_loss=0.5317
+  epoch 14 train_loss=0.2488 val_loss=0.5249
+  epoch 15 train_loss=0.1862 val_loss=0.5282
+  early stop at epoch 15 (best 10)
+  -> test acc=0.8775 f1=0.7911 train=369.7s infer=0.677s best_epoch=10
+[E0_2015/mts] params=327768 train_years=(2015,) test=2015 in_ch=19
+  epoch  1 train_loss=0.2765 val_loss=0.6458  BEST
+  epoch  2 train_loss=0.3164 val_loss=0.5359  BEST
+  epoch  3 train_loss=0.2475 val_loss=0.5249  BEST
+  epoch  4 train_loss=0.1199 val_loss=0.5116  BEST
+  epoch  5 train_loss=0.2065 val_loss=0.4951  BEST
+  epoch  6 train_loss=0.2443 val_loss=0.4934  BEST
+  epoch  7 train_loss=0.1074 val_loss=0.5194
+  epoch  8 train_loss=0.1693 val_loss=0.4755  BEST
+  epoch  9 train_loss=0.2218 val_loss=0.4816
+  epoch 10 train_loss=0.2010 val_loss=0.4885
+  epoch 11 train_loss=0.1290 val_loss=0.4758
+  epoch 12 train_loss=0.1639 val_loss=0.4758
+  epoch 13 train_loss=0.1828 val_loss=0.4755
+  early stop at epoch 13 (best 8)
+  -> test acc=0.8921 f1=0.8102 train=281.36s infer=0.79s best_epoch=8
+spatial split 2015: train=119985 val=119007 test=109557 ({'block_px': 120, 'role_rule': '(block_row+block_col)%3: 1=train,2=val,0=test'})
+  RF  acc=0.8417 f1=0.7800 (92.4s)
+  XGB acc=0.8401 f1=0.7793 (4.2s)
+  dla  acc=0.8775 f1=0.7911 (369.7s)
+  mts  acc=0.8921 f1=0.8102 (281.36s)
+wrote results/spatial_validation.json/.csv

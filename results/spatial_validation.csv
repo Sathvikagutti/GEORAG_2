@@ -1,0 +1,5 @@
+model,accuracy,precision_macro,recall_macro,f1_macro,kappa,training_time_s,inference_time_s,n_test
+random_forest,0.8417,0.8265,0.7442,0.7800,0.6898,92.38,4.332,109557
+xgboost,0.8401,0.8072,0.7579,0.7793,0.6856,4.23,None,109557
+dla_adapted,0.8775,0.8263,0.7635,0.7911,0.7626,369.7,0.677,109557
+mts_adapted,0.8921,0.8326,0.7930,0.8102,0.7921,281.36,0.79,109557

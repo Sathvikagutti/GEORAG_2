@@ -1,0 +1,97 @@
+Experiment,Model_Key,Class_ID,Class_Name_Out,Class_Name_Native,Precision,Recall,F1
+E0_2015,random_forest,1,Built-up,Water,0.8509,0.716,0.7776
+E0_2015,random_forest,2,Vegetation,Urban,0.8469,0.9283,0.8857
+E0_2015,random_forest,3,Water,Soil,0.8395,0.7169,0.7734
+E0_2015,random_forest,4,Open Land,Vegetation,0.8229,0.7661,0.7935
+E0_2015,xgboost,1,Built-up,Water,0.8426,0.7108,0.7711
+E0_2015,xgboost,2,Vegetation,Urban,0.8477,0.9138,0.8795
+E0_2015,xgboost,3,Water,Soil,0.7852,0.7371,0.7604
+E0_2015,xgboost,4,Open Land,Vegetation,0.733,0.8096,0.7694
+E0_2020,random_forest,1,Built-up,Water,0.8379,0.763,0.7987
+E0_2020,random_forest,2,Vegetation,Urban,0.8717,0.9304,0.9001
+E0_2020,random_forest,3,Water,Soil,0.9112,0.8091,0.8571
+E0_2020,random_forest,4,Open Land,Vegetation,0.8896,0.846,0.8672
+E0_2020,xgboost,1,Built-up,Water,0.8284,0.7626,0.7941
+E0_2020,xgboost,2,Vegetation,Urban,0.8739,0.9204,0.8965
+E0_2020,xgboost,3,Water,Soil,0.8955,0.8146,0.8531
+E0_2020,xgboost,4,Open Land,Vegetation,0.8466,0.8746,0.8604
+E0_2025,random_forest,1,Built-up,Water,0.8835,0.8287,0.8552
+E0_2025,random_forest,2,Vegetation,Urban,0.868,0.9223,0.8943
+E0_2025,random_forest,3,Water,Soil,0.9068,0.8234,0.8631
+E0_2025,random_forest,4,Open Land,Vegetation,0.8664,0.8982,0.882
+E0_2025,xgboost,1,Built-up,Water,0.8838,0.8233,0.8525
+E0_2025,xgboost,2,Vegetation,Urban,0.8679,0.9182,0.8923
+E0_2025,xgboost,3,Water,Soil,0.8895,0.833,0.8603
+E0_2025,xgboost,4,Open Land,Vegetation,0.8332,0.9182,0.8736
+E1_2015_to_2020,random_forest,1,Built-up,Water,0.9002,0.5404,0.6754
+E1_2015_to_2020,random_forest,2,Vegetation,Urban,0.7776,0.9712,0.8637
+E1_2015_to_2020,random_forest,3,Water,Soil,0.8296,0.7511,0.7884
+E1_2015_to_2020,random_forest,4,Open Land,Vegetation,0.9469,0.634,0.7595
+E1_2015_to_2020,xgboost,1,Built-up,Water,0.9119,0.5481,0.6847
+E1_2015_to_2020,xgboost,2,Vegetation,Urban,0.7884,0.9673,0.8687
+E1_2015_to_2020,xgboost,3,Water,Soil,0.8029,0.7844,0.7935
+E1_2015_to_2020,xgboost,4,Open Land,Vegetation,0.8867,0.7364,0.8046
+E2_2015_to_2025,random_forest,1,Built-up,Water,0.9106,0.4813,0.6297
+E2_2015_to_2025,random_forest,2,Vegetation,Urban,0.6993,0.9619,0.8098
+E2_2015_to_2025,random_forest,3,Water,Soil,0.6898,0.8166,0.7478
+E2_2015_to_2025,random_forest,4,Open Land,Vegetation,0.9208,0.6415,0.7562
+E2_2015_to_2025,xgboost,1,Built-up,Water,0.9281,0.5191,0.6658
+E2_2015_to_2025,xgboost,2,Vegetation,Urban,0.7385,0.9365,0.8258
+E2_2015_to_2025,xgboost,3,Water,Soil,0.5365,0.8572,0.6599
+E2_2015_to_2025,xgboost,4,Open Land,Vegetation,0.8699,0.7639,0.8135
+E3_2015_2020_to_2025,random_forest,1,Built-up,Water,0.83,0.7475,0.7866
+E3_2015_2020_to_2025,random_forest,2,Vegetation,Urban,0.8422,0.8496,0.8459
+E3_2015_2020_to_2025,random_forest,3,Water,Soil,0.5896,0.8699,0.7028
+E3_2015_2020_to_2025,random_forest,4,Open Land,Vegetation,0.8876,0.8124,0.8483
+E3_2015_2020_to_2025,xgboost,1,Built-up,Water,0.8127,0.7863,0.7993
+E3_2015_2020_to_2025,xgboost,2,Vegetation,Urban,0.8764,0.7927,0.8324
+E3_2015_2020_to_2025,xgboost,3,Water,Soil,0.5174,0.8909,0.6546
+E3_2015_2020_to_2025,xgboost,4,Open Land,Vegetation,0.8356,0.8642,0.8497
+E0_2015,dla,1,Built-up,Water,0.8721,0.8168,0.8436
+E0_2015,dla,2,Vegetation,Urban,0.8851,0.9156,0.9001
+E0_2015,dla,3,Water,Soil,0.7754,0.7207,0.747
+E0_2015,dla,4,Open Land,Vegetation,0.7337,0.7975,0.7643
+E0_2015,mts,1,Built-up,Water,0.8928,0.8962,0.8945
+E0_2015,mts,2,Vegetation,Urban,0.937,0.9116,0.9241
+E0_2015,mts,3,Water,Soil,0.768,0.8423,0.8034
+E0_2015,mts,4,Open Land,Vegetation,0.6866,0.9107,0.7829
+E0_2020,dla,1,Built-up,Water,0.8675,0.8262,0.8463
+E0_2020,dla,2,Vegetation,Urban,0.9006,0.9235,0.9119
+E0_2020,dla,3,Water,Soil,0.8475,0.8308,0.8391
+E0_2020,dla,4,Open Land,Vegetation,0.8694,0.9056,0.8871
+E0_2020,mts,1,Built-up,Water,0.9188,0.904,0.9113
+E0_2020,mts,2,Vegetation,Urban,0.9429,0.9457,0.9443
+E0_2020,mts,3,Water,Soil,0.8775,0.8733,0.8754
+E0_2020,mts,4,Open Land,Vegetation,0.8765,0.9564,0.9147
+E0_2025,dla,1,Built-up,Water,0.9066,0.8853,0.8958
+E0_2025,dla,2,Vegetation,Urban,0.9098,0.9195,0.9147
+E0_2025,dla,3,Water,Soil,0.861,0.8629,0.862
+E0_2025,dla,4,Open Land,Vegetation,0.8381,0.9229,0.8785
+E0_2025,mts,1,Built-up,Water,0.9342,0.9229,0.9285
+E0_2025,mts,2,Vegetation,Urban,0.9408,0.9389,0.9399
+E0_2025,mts,3,Water,Soil,0.8961,0.9069,0.9015
+E0_2025,mts,4,Open Land,Vegetation,0.8473,0.9538,0.8974
+E1_2015_to_2020,dla,1,Built-up,Water,0.9417,0.6785,0.7888
+E1_2015_to_2020,dla,2,Vegetation,Urban,0.8349,0.9663,0.8958
+E1_2015_to_2020,dla,3,Water,Soil,0.8203,0.8198,0.8201
+E1_2015_to_2020,dla,4,Open Land,Vegetation,0.9194,0.8003,0.8557
+E1_2015_to_2020,mts,1,Built-up,Water,0.9096,0.8366,0.8716
+E1_2015_to_2020,mts,2,Vegetation,Urban,0.9038,0.9282,0.9158
+E1_2015_to_2020,mts,3,Water,Soil,0.7373,0.8535,0.7912
+E1_2015_to_2020,mts,4,Open Land,Vegetation,0.9001,0.8025,0.8485
+E2_2015_to_2025,dla,1,Built-up,Water,0.9633,0.5644,0.7118
+E2_2015_to_2025,dla,2,Vegetation,Urban,0.761,0.9632,0.8503
+E2_2015_to_2025,dla,3,Water,Soil,0.6235,0.869,0.7261
+E2_2015_to_2025,dla,4,Open Land,Vegetation,0.8307,0.8835,0.8563
+E2_2015_to_2025,mts,1,Built-up,Water,0.9712,0.6818,0.8011
+E2_2015_to_2025,mts,2,Vegetation,Urban,0.7931,0.9641,0.8703
+E2_2015_to_2025,mts,3,Water,Soil,0.7259,0.8894,0.7994
+E2_2015_to_2025,mts,4,Open Land,Vegetation,0.8647,0.7413,0.7983
+E3_2015_2020_to_2025,dla,1,Built-up,Water,0.8387,0.9028,0.8696
+E3_2015_2020_to_2025,dla,2,Vegetation,Urban,0.9276,0.8301,0.8761
+E3_2015_2020_to_2025,dla,3,Water,Soil,0.729,0.8765,0.796
+E3_2015_2020_to_2025,dla,4,Open Land,Vegetation,0.8128,0.9135,0.8602
+E3_2015_2020_to_2025,mts,1,Built-up,Water,0.9111,0.8857,0.8982
+E3_2015_2020_to_2025,mts,2,Vegetation,Urban,0.921,0.9074,0.9141
+E3_2015_2020_to_2025,mts,3,Water,Soil,0.7601,0.9072,0.8272
+E3_2015_2020_to_2025,mts,4,Open Land,Vegetation,0.8451,0.9037,0.8734

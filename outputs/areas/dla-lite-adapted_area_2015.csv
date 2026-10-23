@@ -1,0 +1,5 @@
+class_id_out,class_name_out,class_name_native,pixel_count,area_m2,area_ha,area_km2,pct_of_mapped
+1,Built-up,Urban,234751,201429890.63,20142.9891,201.429891,64.896
+2,Vegetation,Vegetation,10940,9388818.11,938.8818,9.388818,3.024
+3,Water,Water,95043,81551716.51,8155.1717,81.551717,26.274
+4,Open Land,Soil,20998,18017427.18,1801.7427,18.017427,5.805

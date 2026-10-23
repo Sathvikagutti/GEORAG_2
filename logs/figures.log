@@ -1,0 +1,19 @@
+/workspace/chats/7ce8d2aba139f20f57ba8e12/src/07_figures.py:161: UserWarning: Setting the 'color' property will override the edgecolor or facecolor properties.
+  handles = [plt.Rectangle((0, 0), 1, 1, color="#FFFFFF",
+figures: [
+  "fig_change_dla.png",
+  "fig_change_mts.png",
+  "fig_change_random_forest.png",
+  "fig_change_xgboost.png",
+  "fig_confusions_temporal.png",
+  "fig_macro_f1_comparison.png",
+  "fig_per_class_f1_temporal.png",
+  "fig_pred_maps_dla.png",
+  "fig_pred_maps_mts.png",
+  "fig_pred_maps_random_forest.png",
+  "fig_pred_maps_xgboost.png",
+  "fig_transition_heatmap_dla.png",
+  "fig_transition_heatmap_mts.png",
+  "fig_transition_heatmap_random_forest.png",
+  "fig_transition_heatmap_xgboost.png"
+]

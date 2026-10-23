@@ -1,0 +1,45 @@
+{
+  "aggregation": "unweighted mean over experiments, seed 42",
+  "by_model": {
+    "dla": {
+      "mean_temporal_f1_macro": 0.8256,
+      "mean_temporal_accuracy": 0.8403,
+      "mean_sameyear_f1_macro": 0.8575,
+      "mean_train_time_s": 431.0,
+      "n_temporal_runs": 3
+    },
+    "mts": {
+      "mean_temporal_f1_macro": 0.8508,
+      "mean_temporal_accuracy": 0.8753,
+      "mean_sameyear_f1_macro": 0.8932,
+      "mean_train_time_s": 387.1,
+      "n_temporal_runs": 3
+    },
+    "random_forest": {
+      "mean_temporal_f1_macro": 0.7678,
+      "mean_temporal_accuracy": 0.7888,
+      "mean_sameyear_f1_macro": 0.8457,
+      "mean_train_time_s": 203.5,
+      "n_temporal_runs": 3
+    },
+    "xgboost": {
+      "mean_temporal_f1_macro": 0.771,
+      "mean_temporal_accuracy": 0.7916,
+      "mean_sameyear_f1_macro": 0.8386,
+      "mean_train_time_s": 20.3,
+      "n_temporal_runs": 3
+    }
+  },
+  "chosen_model": "mts",
+  "criterion": "highest mean_temporal_f1_macro over E1/E2/E3",
+  "margin_over_runner_up": 0.0252,
+  "experiments_won_by_model": {
+    "mts": 6
+  },
+  "n_experiments_total": 6,
+  "caveats": [
+    "adapted architectures, not the published MTS/Bansal-Tripathi models",
+    "single seed (42); label provenance unverified",
+    "random-split metrics optimistic vs blocked spatial split (see results/spatial_validation.*)"
+  ]
+}

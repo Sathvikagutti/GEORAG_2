@@ -1,0 +1,84 @@
+pixel geodesic area: 857.67 m2 (row 0) .. 858.45 m2 (row 668)
+{
+  "2015->2020": {
+    "gain_pixels": 13921,
+    "gain_area_ha": 1194.4644023455076,
+    "loss_pixels": 41121,
+    "loss_area_ha": 3528.60943920321,
+    "net_change_ha": -2334.1450368577025,
+    "stable_pixels": 188755,
+    "stable_area_ha": 16196.202615017504
+  },
+  "2020->2025": {
+    "gain_pixels": 11557,
+    "gain_area_ha": 991.6256420610287,
+    "loss_pixels": 23995,
+    "loss_area_ha": 2058.795951848697,
+    "net_change_ha": -1067.1703097876682,
+    "stable_pixels": 145483,
+    "stable_area_ha": 12482.270914555167
+  }
+}
+pixel geodesic area: 857.67 m2 (row 0) .. 858.45 m2 (row 668)
+{
+  "2015->2020": {
+    "gain_pixels": 15198,
+    "gain_area_ha": 1304.09692516869,
+    "loss_pixels": 44707,
+    "loss_area_ha": 3836.3042110252354,
+    "net_change_ha": -2532.2072858565452,
+    "stable_pixels": 192621,
+    "stable_area_ha": 16527.814608012515
+  },
+  "2020->2025": {
+    "gain_pixels": 12697,
+    "gain_area_ha": 1089.4478694241234,
+    "loss_pixels": 26713,
+    "loss_area_ha": 2292.011683178647,
+    "net_change_ha": -1202.5638137545238,
+    "stable_pixels": 148676,
+    "stable_area_ha": 12756.222947756676
+  }
+}
+pixel geodesic area: 857.67 m2 (row 0) .. 858.45 m2 (row 668)
+{
+  "2015->2020": {
+    "gain_pixels": 8359,
+    "gain_area_ha": 717.2734351937621,
+    "loss_pixels": 39687,
+    "loss_area_ha": 3405.5003929774903,
+    "net_change_ha": -2688.2269577837283,
+    "stable_pixels": 193659,
+    "stable_area_ha": 16616.913926773457
+  },
+  "2020->2025": {
+    "gain_pixels": 9694,
+    "gain_area_ha": 831.7880295312115,
+    "loss_pixels": 22403,
+    "loss_area_ha": 1922.1637789291362,
+    "net_change_ha": -1090.3757493979247,
+    "stable_pixels": 145546,
+    "stable_area_ha": 12487.659065584527
+  }
+}
+pixel geodesic area: 857.67 m2 (row 0) .. 858.45 m2 (row 668)
+{
+  "2015->2020": {
+    "gain_pixels": 7376,
+    "gain_area_ha": 632.9027287594013,
+    "loss_pixels": 39227,
+    "loss_area_ha": 3365.975312679375,
+    "net_change_ha": -2733.0725839199736,
+    "stable_pixels": 190812,
+    "stable_area_ha": 16372.691564154635
+  },
+  "2020->2025": {
+    "gain_pixels": 7231,
+    "gain_area_ha": 620.4403070972182,
+    "loss_pixels": 18686,
+    "loss_area_ha": 1603.260736649645,
+    "net_change_ha": -982.8204295524267,
+    "stable_pixels": 145861,
+    "stable_area_ha": 12514.705525302063
+  }
+}

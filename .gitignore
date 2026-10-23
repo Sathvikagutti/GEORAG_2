@@ -1,0 +1,15 @@
+# virtualenv
+.venv/
+
+# regenerable packaging/build artifacts
+# (GeoRAG_Member2_ModelUpgrade.zip is 197 MB — exceeds GitHub's 100 MB file limit;
+#  rebuild it with: python tools/build_package.py)
+GeoRAG_Member2_ModelUpgrade.zip
+
+# extracted/ contains Training_Samples.csv (109 MB — exceeds GitHub's 100 MB file
+# limit); it is fully regenerable from drive_downloads/ (see README §5 step 1)
+extracted/
+
+# caches
+__pycache__/
+*.pyc

@@ -1,0 +1,13 @@
+pred_2015_random_forest.tif: mapped=361732 nodata=101885 counts={0: 101885, 1: 231576, 2: 9437, 3: 98721, 4: 21998}
+pred_2020_random_forest.tif: mapped=344888 nodata=118729 counts={0: 118729, 1: 202678, 2: 13303, 3: 101130, 4: 27777}
+pred_2025_random_forest.tif: mapped=376299 nodata=87318 counts={0: 87318, 1: 202541, 2: 12272, 3: 131387, 4: 30099}
+pred_2015_xgboost.tif: mapped=361732 nodata=101885 counts={0: 101885, 1: 239573, 2: 10941, 3: 89082, 4: 22136}
+pred_2020_xgboost.tif: mapped=344888 nodata=118729 counts={0: 118729, 1: 207822, 2: 14212, 3: 96444, 4: 26410}
+pred_2025_xgboost.tif: mapped=376299 nodata=87318 counts={0: 87318, 1: 206813, 2: 13357, 3: 126208, 4: 29921}
+pred_2015_dla-lite-adapted.tif: mapped=361732 nodata=101885 counts={0: 101885, 1: 234751, 2: 10940, 3: 95043, 4: 20998}
+pred_2020_dla-lite-adapted.tif: mapped=344888 nodata=118729 counts={0: 118729, 1: 202018, 2: 14092, 3: 100332, 4: 28446}
+pred_2025_dla-lite-adapted.tif: mapped=376299 nodata=87318 counts={0: 87318, 1: 200680, 2: 13552, 3: 130018, 4: 32049}
+pred_2015_mts-lite-adapted.tif: mapped=361732 nodata=101885 counts={0: 101885, 1: 231369, 2: 10656, 3: 95672, 4: 24035}
+pred_2020_mts-lite-adapted.tif: mapped=344888 nodata=118729 counts={0: 118729, 1: 198188, 2: 14758, 3: 103115, 4: 28827}
+pred_2025_mts-lite-adapted.tif: mapped=376299 nodata=87318 counts={0: 87318, 1: 197301, 2: 13683, 3: 132975, 4: 32340}
+manifest -> outputs/predictions/prediction_manifest.json

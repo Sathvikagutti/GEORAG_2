@@ -1,0 +1,10 @@
+# GeoRAG Member 2 model-upgrade pipeline — exact versions used (Python 3.12.3)
+# CPU-only environment. torch must be the CPU wheel for this host.
+numpy==2.5.4
+pandas==3.1.0
+scikit-learn==1.9.1
+xgboost==3.4.1
+torch==2.14.1          # installed from https://download.pytorch.org/whl/cpu
+rasterio==1.5.2
+matplotlib==3.11.2
+pyproj==3.8.0
